@@ -3,6 +3,7 @@ import React from 'react'
 import { Button } from "@/components/ui/button"
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import { FaGithub } from 'react-icons/fa'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -10,7 +11,13 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-10 bg-background border-b">
     <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 className="text-2xl font-bold">Eisuke Amano</h1>
+      <div className='flex gap-5'>
+        <Button variant="outline" size="icon">
+          <FaGithub className="h-2 w-2" />
+          <span className="sr-only ">GitHub</span>
+        </Button>
+        <h1 className="text-2xl font-bold">Eisuke Amano</h1>
+      </div>
       <nav className="hidden md:flex space-x-4">
         <a href="#about" className="hover:text-primary">About</a>
         <a href="#skills" className="hover:text-primary">Skills</a>

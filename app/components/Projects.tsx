@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 const Projects = () => {
   return (
     <section id="projects" className="mb-16">
-      <h2 className="text-3xl font-bold mb-4">Projects</h2>
+      <h2 className="text-3xl font-bold mb-7">Projects</h2>
       <div className="grid md:grid-cols-2 gap-6">
         {[
           { title: 'Project 1', description: 'Description of project 1' },
