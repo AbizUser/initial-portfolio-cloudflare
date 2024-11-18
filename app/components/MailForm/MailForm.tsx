@@ -28,7 +28,7 @@ export default function MailForm() {
 
   return (
     <Form {...form}>
-      <ToastContainer />
+      <ToastContainer/>
       <form
       onSubmit={form.handleSubmit(onSubmit)} 
         className="container flex-col gap-3">

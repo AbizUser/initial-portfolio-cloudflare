@@ -3,9 +3,10 @@ import MailForm from "./MailForm/MailForm"
 
 const Contact = () => {
   return (
-    <section id="contact">
-    <h2 className="text-3xl font-bold mb-7">Contact</h2>
+    <section>
+    <h2 className="text-3xl font-bold mb-4">Contact</h2>
     <div className="flex space-x-4">
+    {/* <div className="flex space-x-4 max-w-5xl m-auto"> */}
       {/* <Button variant="outline" size="icon">
         <Linkedin className="h-4 w-4" />
         <span className="sr-only">LinkedIn</span>

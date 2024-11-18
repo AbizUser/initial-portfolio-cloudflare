@@ -14,10 +14,18 @@ export default function Home() {
     <div className="min-h-screen bg-white ">
       <Header/>
       <main className="container mx-auto px-4 py-8">
-        <About/>
-        <Skills/>
-        <Projects/>
-        <Contact/>
+        <div id="about" className='scroll-mt-20'>
+          <About/>
+        </div>
+        <div id="skills" className='scroll-mt-20'>
+          <Skills/>
+        </div>
+        <div id="projects" className='scroll-mt-20'>
+          <Projects/>
+        </div>
+        <div id="contact">
+          <Contact/>
+        </div>
       </main>
       <Footer />
     </div>
