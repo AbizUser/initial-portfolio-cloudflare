@@ -3,6 +3,8 @@ import { NextResponse } from "next/server"
 import React from "react"
 import { Resend } from "resend"
 
+export const runtime = "edge";
+
 const resend = new Resend(process.env.RESEND_API_KEY)
 // const mailAddress = process.env.YOUR_MAIL_ADDRES
 
