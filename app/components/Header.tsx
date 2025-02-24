@@ -25,7 +25,7 @@ const Header = () => {
           <span className="sr-only ">GitHub</span>
         </Button>
         </Link>
-        <h1 className="text-2xl font-bold">Eisuke Amano</h1>
+        <h1 className="text-2xl font-bold">amoi-AI</h1>
       </div>
       <nav className="hidden md:flex space-x-4">
         <a href="#about" className="hover:text-primary">About</a>
